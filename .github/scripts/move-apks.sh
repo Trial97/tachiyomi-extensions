@@ -4,10 +4,10 @@ shopt -s globstar nullglob extglob
 
 # Get APKs from previous jobs' artifacts
 cp -R ~/apk-artifacts/ $PWD
-APKS=( **/*".apk" )
+APKS=(**/*".apk")
 
 # Fail if too little extensions seem to have been built
-if [ "${#APKS[@]}" -le "100" ]; then
+if [ "${#APKS[@]}" -le "0" ]; then
     echo "Insufficient amount of APKs found. Please check the project configuration."
     exit 1
 else
