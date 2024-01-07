@@ -2,7 +2,6 @@ name: 🐞 Issue report
 description: Report a source issue in Tachiyomi
 labels: [Bug]
 body:
-
   - type: input
     id: source
     attributes:
@@ -95,13 +94,13 @@ body:
           required: true
         - label: I have written a short but informative title.
           required: true
-        - label: I have updated the app to version **[0.15.1](https://github.com/tachiyomiorg/tachiyomi/releases/latest)**.
+        - label: I have updated the app to version **[0.15.1](https://github.com/Trial97/tachiyomi/releases/latest)**.
           required: true
         - label: I have updated all installed extensions.
           required: true
         - label: I have tried the [troubleshooting guide](https://tachiyomi.org/help/guides/troubleshooting/).
           required: true
-        - label: If this is an issue with the app itself, I should be opening an issue in the [app repository](https://github.com/tachiyomiorg/tachiyomi/issues/new/choose).
+        - label: If this is an issue with the app itself, I should be opening an issue in the [app repository](https://github.com/Trial97/tachiyomi/issues/new/choose).
           required: true
         - label: I will fill out all of the requested information in this form.
           required: true
